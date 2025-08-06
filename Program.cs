@@ -6,8 +6,8 @@ namespace ConsoleCalculatorB2A
     {
         static void Main(string[] args)
         {
-            CalcMethod mathMethod = new CalcMethod();
-            mathMethod.StartCalculator();
+            Calculator calculator = new Calculator();
+            calculator.StartCalculator();
         }
     }
 }
